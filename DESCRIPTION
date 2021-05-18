@@ -1,0 +1,16 @@
+Package: DAGDNA
+Type: Package
+Title: Definite Non-Ancestral Relations and Structure Learning
+Version: 0.1.0
+Authors@R: as.person(c(
+    "Wenyu Chen <wenyuc@uw.edu> [aut, cre]", 
+    "Mathias Drton <md5@uw.edu> [aut]",
+    "Ali Shojaie <ashojaie@uw.edu> [aut]"
+  ))
+Maintainer: Wenyu Chen <wenyuc@uw.edu>
+Description: Learn Definite-Non-Ancestral relations from observational data. This package also contains improved version of PC and SP algorithms
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports:pcalg,RBGL,igraph,graph,lpSolve,mvtnorm

@@ -1,0 +1,6 @@
+export(LearnDNAforward)
+export(LearnDNAforwardthreshold)
+export(LearnDNAbackward)
+export(orderConstraining)
+export(allDNA)
+export(SparsestPermutation)
