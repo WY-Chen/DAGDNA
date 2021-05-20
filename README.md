@@ -3,9 +3,9 @@ This is an implemetation of the structure learning algorithm using definite non-
 
 ## Installation
 ```R
-  # install.packages("devtools")
-  devtools::install_github("WY-Chen/DAGDNA")
-  ```
+# install.packages("devtools")
+devtools::install_github("WY-Chen/DAGDNA")
+```
 
 ## DNA Learning Methods
 Learning DNA from sample.
@@ -36,13 +36,13 @@ orderConstraining(
 ## Modified Structure Learning Methods
 
 ```R
-  SparsestPermutation(
-    X,      #observed data
-    DNA=F,  #use DNA learning or not
-    k=0,    #if DNA=T, set level of DNA learning
-    alpha=0.05,  #significance level in CI test (gaussCItest)
-    r=5,    #number of restarts
-    d=5,    #depth of SP search
-    verbose=F #if true, prints the learning path with scores
-    )
-  ```
+SparsestPermutation(
+  X,      #observed data
+  DNA=F,  #use DNA learning or not
+  k=0,    #if DNA=T, set level of DNA learning
+  alpha=0.05,  #significance level in CI test (gaussCItest)
+  r=5,    #number of restarts
+  d=5,    #depth of SP search
+  verbose=F #if true, prints the learning path with scores
+  )
+```
